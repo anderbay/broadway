@@ -18,7 +18,7 @@ header ul {
 }
 
 header {
-  background-image: url('../images/the-flatiron-building.png');
+  background: url('../images/the-flatiron-building.png') no-repeat center top/cover;
 }
 
 h2 {
@@ -35,6 +35,7 @@ h3 {
   font-size: 23px;
   font-weight: bold;
   color: white;
+  background: url('../images/the-flatiron-building.png') no-repeat center top/cover;
 }
 
 footer {
@@ -49,7 +50,7 @@ footer {
 
 #p_footer {
   float: left;
-  padding: 0 30px;
+  padding: 5px 30px 0;
   }
 
 li {
@@ -62,16 +63,27 @@ a:link {
   margin-bottom: 50px;
 }
 
+/*a:visited {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}*/
+
 footer a {
   text-decoration: none;
   text-align: left;
   padding: 15px 10px
 }
 
-footer a:link{
+footer a:link {
   color: white;
   text-decoration: underline;
 }
+
+/*footer a:visited {
+  color: white;
+  text-decoration: underline;
+}*/
 
 footer li {
     float: left;
@@ -79,9 +91,3 @@ footer li {
     text-align: left;
     display: inline-block;
 }
-
-/*footer ul li {
-  list-style: none;
-  text-align: left;
-  display: inline-block;
-}*/
