@@ -41,4 +41,47 @@ footer {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  float: left;
+  width: 100%;
+  line-height: 20px;
+  vertical-align: middle;
 }
+
+#p_footer {
+  float: left;
+  padding: 0 30px;
+  }
+
+li {
+  padding: 5px 0;
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  text-align: left;
+  padding: 15px 10px
+}
+
+footer a:link{
+  color: white;
+  text-decoration: underline;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+}
+
+/*footer ul li {
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+}*/
